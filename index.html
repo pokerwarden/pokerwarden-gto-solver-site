@@ -314,8 +314,8 @@
   </footer>
 
   <script>
-    // Permanent stub installer — same file forever, always installs latest version
-    const STUB_URL = "https://pokerwarden.github.io/pokerwarden-gto-solver-site/GTO-Solver-Setup.exe";
+    // Direct download — always points to latest GTO.Solver.Setup.exe on GitHub releases
+    const STUB_URL = "https://github.com/pokerwarden/gto-solver-releases/releases/latest/download/GTO.Solver.Setup.exe";
     document.getElementById("btn-download").href = STUB_URL;
 
     // Pull live version number from update.json
